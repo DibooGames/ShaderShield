@@ -104,6 +104,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FireSpeed: 74.37
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -121,18 +122,20 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _emission: 1.19
-    - _fresnel_intensity: 8.74
-    - _opacity: 1.51
-    - _outline_intensity: 0.96
-    - _tilingX: -2.84
-    - _tiling_Y: 0.35
+    - _emission: 1.49
+    - _fresnel_intensity: 1.48
+    - _impactForce: 0
+    - _opacity: 0.88
+    - _outline_intensity: 1.44
+    - _tilingX: -3.88
+    - _tiling_Y: -2.72
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ImpactPosition: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _flame_color: {r: 0.7254902, g: 0.31967872, b: 0, a: 0}
+    - _flame_color: {r: 1, g: 0.20381722, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9058133371786044963
 MonoBehaviour:
